@@ -1,0 +1,15 @@
+Collecting pyOpenSSL
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/01/c8/ceb170d81bd3941cbeb9940fc6cc2ef2ca4288d0ca8929ea4db5905d904d/pyOpenSSL-19.0.0-py2.py3-none-any.whl
+Collecting cryptography>=2.3 (from pyOpenSSL)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/17/fd/4c2c8953a9dfe38fbe0c3adafb6355540bd98cef70cc82734acb0a4c0e2f/cryptography-2.5-cp27-cp27mu-manylinux1_x86_64.whl (2.4MB)
+Requirement already up-to-date: six>=1.5.2 in ./venv/lib/python2.7/site-packages (from pyOpenSSL)
+Collecting enum34; python_version < "3" (from cryptography>=2.3->pyOpenSSL)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c5/db/e56e6b4bbac7c4a06de1c50de6fe1ef3810018ae11732a50f15f62c7d050/enum34-1.1.6-py2-none-any.whl
+Collecting asn1crypto>=0.21.0 (from cryptography>=2.3->pyOpenSSL)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ea/cd/35485615f45f30a510576f1a56d1e0a7ad7bd8ab5ed7cdc600ef7cd06222/asn1crypto-0.24.0-py2.py3-none-any.whl
+Collecting cffi!=1.11.3,>=1.8 (from cryptography>=2.3->pyOpenSSL)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/dd/3e7a1e1280e7d767bd3fa15791759c91ec19058ebe31217fe66f3e9a8c49/cffi-1.11.5-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting ipaddress; python_version < "3" (from cryptography>=2.3->pyOpenSSL)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fc/d0/7fc3a811e011d4b388be48a0e381db8d990042df54aa4ef4599a31d39853/ipaddress-1.0.22-py2.py3-none-any.whl
+Collecting pycparser (from cffi!=1.11.3,>=1.8->cryptography>=2.3->pyOpenSSL)
+Installing collected packages: enum34, asn1crypto, pycparser, cffi, ipaddress, cryptography, pyOpenSSL

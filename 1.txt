@@ -1,0 +1,54 @@
+[*][Requests Analysis] Time: [1;32;40m2019-02-01 04:40:32[0m
+.............................................
+# -*- coding: utf-8 -*-
+
+
+
+
+
+""" Capture mitmproxy Request Logs into a file
+
+
+
+
+
+This module is used to capture mitmproxy Requests and write to a file.
+
+
+
+
+
+Usage:
+
+
+    mitmdump -p 443 -s "proxy_mitmproxy.py logs.txt"
+
+
+
+
+
+"""
+
+
+
+
+
+import sys
+
+
+import time
+
+
+
+
+
+def get_request_info(flow, item):
+
+
+    request_item = ""
+
+
+    try:
+
+
+        if item == "port" and flow.request.port:

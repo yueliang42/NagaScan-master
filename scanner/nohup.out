@@ -1,0 +1,19 @@
+[*][SQL Injection Scan] Time: [1;32;40m2019-02-02 15:36:50[0m
+.............................................
+[1;32;40m[*] request id: b0eb59ddd9eac2d3d7b013e544127fa4025dc735a978944f0ab139457d076e87[0m
+[1;32;40m[*] sqlmapapi server: http://127.0.0.1:8775/[0m
+[1;32;40m[*] created new task: 3dd9bee9c81fb63c[0m
+	[-]target: https://1254150421.vod2.myqcloud.com/741100b8vodgzp1254150421/35af183b5285890784621498187/clip.mp4
+	[-]payload: {'url': 'https://1254150421.vod2.myqcloud.com/741100b8vodgzp1254150421/35af183b5285890784621498187/clip.mp4', 'cookie': None, 'data': None, 'referer': u'https://xue.meituan.com/lesson/list/classified/12?from=mtpc', 'user-agent': u'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'}
+Traceback (most recent call last):
+  File "scan_sqli.py", line 67, in <module>
+    main()
+  File "scan_sqli.py", line 57, in main
+    scanner(request)
+  File "scan_sqli.py", line 48, in scanner
+    scan_sqli_request(request_info, sqlmapapi_server)
+  File "scan_sqli.py", line 22, in scan_sqli_request
+    run_scan_sqli.run()
+  File "/home/moon/Downloads/NagaScan-master/scanner/lib/hack_sqlmapapi.py", line 124, in run
+    time.sleep(10)
+KeyboardInterrupt

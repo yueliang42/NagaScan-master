@@ -1,0 +1,6 @@
+./scan_fi.py: line 12: from: command not found
+./scan_fi.py: line 13: from: command not found
+./scan_fi.py: line 14: from: command not found
+./scan_fi.py: line 18: LIB: command not found
+./scan_fi.py: line 21: syntax error near unexpected token `('
+./scan_fi.py: line 21: `cookie_exclusion = get_cookie_exclusion_info(fetch_exclusion_cookie()[0])'
